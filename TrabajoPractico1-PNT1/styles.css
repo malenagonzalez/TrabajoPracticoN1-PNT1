@@ -1,0 +1,99 @@
+﻿/* style.css */
+:root {
+    --facebook: #3b3ab0;
+    --youtube: #a41a1a;
+    --twitter: #15d0b9;
+    --github: #490469;
+}
+
+body {
+    background-color: #EDEDED;
+    color: black;
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+#banner {
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/604671/pexels-photo-604671.jpeg");
+    opacity: 1;
+    background-size: cover;
+    padding: 70px;
+    color: white;
+    text-shadow: 3px 1px 10px black;
+}
+
+#banner h1 {
+    color: white;
+    font-size: 30px;
+}
+
+    #banner p {
+        font-size: 50px;
+        font-weight: lighter;
+    }
+
+    #banner a {
+        font-size: 20px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #f23b3b;
+    }
+
+a {
+    color: white;
+}
+
+#footer {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+    text-align: center;
+}
+
+    #footer ul li {
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    #footer a {
+        display: block;
+        padding: 0 20px;
+        color: #fff;
+        font-size: 40px;
+    }
+
+    #footer ul li .facebook:hover {
+        color: var(--facebook);
+    }
+
+    #footer ul li .youtube:hover {
+        color: var(--youtube);
+    }
+
+    #footer ul li .github:hover {
+        color: var(--github);
+    }
+    
+    #footer ul li .twitter:hover {
+        color: var(--twitter);
+    }
+
+
+.tarjeta {
+    padding: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
